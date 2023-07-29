@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ $(kubectl get po stress-pod -o jsonpath='{.spec.containers[0].resources.limits.memory}') = '70m' \
+if [[ $(kubectl get po stress-pod -o jsonpath='{.spec.containers[0].resources.limits.memory}') = '70Mi' \
 && $(kubectl get po stress-pod -o jsonpath='{.status.phase}') = 'Running' ]]
 then
   exit 0

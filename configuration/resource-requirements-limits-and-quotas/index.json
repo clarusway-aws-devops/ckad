@@ -12,7 +12,9 @@
         "verify": "step1/verify.sh"
       },
       {
-        "title": "create-namespace",
+        "title": "update-resource",
+        "foreground": "step4/foreground.sh",
+        "background": "step4/background.sh",  
         "text": "step2/step1.md",
         "verify": "step2/verify.sh"
       },
