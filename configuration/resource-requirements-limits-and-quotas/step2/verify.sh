@@ -1,6 +1,7 @@
 #!/bin/bash
 
-if [[ $(kubectl get ns | grep 'webserver' | awk '{print $1}') = 'webserver' ]]
+if [[ $(kubectl get po stress-pod -o jsonpath='{.spec.containers[0].resources.limits.memory}') = '70m' \
+&& $(kubectl get po stress-pod -o jsonpath='{.status.phase}') = 'Running' ]]
 then
   exit 0
 else
