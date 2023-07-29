@@ -13,8 +13,8 @@
       },
       {
         "title": "update-resource",
-        "foreground": "step4/foreground.sh",
-        "background": "step4/background.sh",  
+        "foreground": "step2/foreground.sh",
+        "background": "step2/background.sh",  
         "text": "step2/step1.md",
         "verify": "step2/verify.sh"
       },
