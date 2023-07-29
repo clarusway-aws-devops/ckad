@@ -1,6 +1,6 @@
 {
-  "title": "Networking",
-  "description": "Kubernetes Networking",
+  "title": "Network Policy",
+  "description": "Kubernetes Network Policy",
   "details": {
     "intro": {
       "text": "intro.md"
