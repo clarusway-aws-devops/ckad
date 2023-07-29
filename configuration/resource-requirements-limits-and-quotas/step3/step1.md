@@ -1,5 +1,6 @@
-Create a deployment with the `httpd:alpine` image named `mydeploy` at the `webserver` namespace. Attach `web=apache` label.
-
-- Name: mydeploy
-- Image: httpd:alpine
-- label: web=apache
+- There is a `dev` namespace.
+- Create a ResourceQuota object named `dev-quota`. Define following request and limit quota for `dev` namespace. 
+    - requests.cpu: "1"
+    - requests.memory: 1Gi
+    - limits.cpu: "2"
+    - limits.memory: 2Gi

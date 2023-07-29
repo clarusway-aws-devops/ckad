@@ -1,8 +1,6 @@
 #!/bin/bash
 
-if [[ $(kubectl get deploy -n webserver | grep 'mydeploy' | head -1 | awk '{print $1}') = 'mydeploy' \
-&& $(kubectl get deploy mydeploy -n webserver -o yaml | grep 'httpd:alpine' | head -1 | awk '{print $3}') = 'httpd:alpine' \
-&& $(kubectl get deploy mydeploy -n webserver -o yaml | grep 'web: apache' | head -1 | awk '{print $1,$2}') ]]
+if [[ $(kkubectl -n dev get resourcequotas dev-quota -o jsonpath='{.spec.hard}') = '{"limits.cpu":"2","limits.memory":"2Gi","requests.cpu":"1","requests.memory":"1Gi"}' ]]
 then
   exit 0
 else
