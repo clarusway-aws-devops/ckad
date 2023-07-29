@@ -1,6 +1,6 @@
 {
-  "title": "Networking",
-  "description": "Kubernetes Networking",
+  "title": "Ingress",
+  "description": "Kubernetes Ingress",
   "details": {
     "intro": {
       "text": "intro.md"

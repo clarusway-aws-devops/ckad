@@ -1,6 +1,6 @@
 {
-  "title": "Networking",
-  "description": "Kubernetes Networking",
+  "title": "Services",
+  "description": "Kubernetes Services",
   "details": {
     "intro": {
       "text": "intro.md"
