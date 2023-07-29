@@ -1,0 +1,27 @@
+{
+  "title": "Observability",
+  "description": "Kubernetes Probes",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "create-livenessprobe",
+        "text": "step1/step1.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "create-readinessprobe",
+        "text": "step2/step1.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}

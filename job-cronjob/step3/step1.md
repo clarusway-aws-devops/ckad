@@ -1,0 +1,1 @@
+- Create a cronjob named 'hello-cronjob' with image 'busybox' that runs every minute and the command with arguments "date; echo Hello World".
