@@ -12,4 +12,4 @@
 
 - Create a new Deployment `clarusweb-v2` which uses image `clarusway/clarusweb:2.0` with `3` replicas. It's Pods should have labels `app: clarusweb` and `version: v2`.
 
-- Once all new Pods are running, update the selector part of `clarusweb service` to switch the traffic to `clarusway/clarusweb:2.0` image.
+- Once all new Pods are running, update the `selector part` of `clarusweb service` to switch the traffic to `clarusway/clarusweb:2.0` image.
