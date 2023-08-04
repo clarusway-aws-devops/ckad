@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: clarusweb
+  name: clarusweb-v1
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: clarusweb
+  template:
+    metadata:
+      labels:
+        app: clarusweb
+        version: v1
+    spec:
+      containers:
+      - image: clarusway/clarusweb:1.0
+        name: clarusweb
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: clarusweb
+  name: clarusweb
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+    nodePort: 30001
+  selector:
+    app: clarusweb
+  type: NodePort
