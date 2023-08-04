@@ -1,1 +1,1 @@
-- Roll back the 'myapp' deployment to the previous version.
+- create an object named `mybook` from `BookSeller` custom resource. Define `book: Heidi` and `count: 3`.
