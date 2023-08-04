@@ -4,7 +4,7 @@
 
 - You can call the app using curl localhost:30001 .
 
-- The application YAML is available at /root/clarusweb-v1.yaml .
+- The application file is at /root/clarusweb-v1.yaml .
 
 - The app has a Deployment with image clarusway/clarusweb:1.0 , but should be switched over to clarusway/clarusweb:2.0 .
 
