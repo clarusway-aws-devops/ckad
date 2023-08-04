@@ -1,22 +1,17 @@
 {
-  "title": "Common Deployment Strategies",
-  "description": "blue/green and canary",
+  "title": "canary",
+  "description": "canary Deployment Strategy",
   "details": {
     "intro": {
       "text": "intro.md"
     },
     "steps": [
       {
-        "title": "blue/green",
+        "title": "canary",
         "foreground": "step1/foreground.sh",
         "background": "step1/background.sh",
         "text": "step1/step1.md",
         "verify": "step1/verify.sh"
-      },
-      {
-        "title": "canary",
-        "text": "step2/step1.md",
-        "verify": "step2/verify.sh"
       }
     ],
     "assets": {
