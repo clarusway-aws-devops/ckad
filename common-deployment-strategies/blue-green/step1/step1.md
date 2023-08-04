@@ -10,8 +10,6 @@
 
 - The switch should happen instantly. Meaning that from the moment of rollout, all new requests should hit the new image.
 
-- Create a new Deployment clarusveb-v2 which uses image clarusway/clarusweb:2.0 with 4 replicas. It's Pods should have labels app: clarusweb and version: v2
+- Create a new Deployment `clarusweb-v2` which uses image `clarusway/clarusweb:2.0` with `3` replicas. It's Pods should have labels `app: clarusweb` and `version: v2`.
 
-- Once all new Pods are running, change the selector label of Service clarusweb to version: v2
-
-- Finally scale down Deployment clarusweb-v1 to 0 replicas.
+- Once all new Pods are running, update the `clarusweb service` to switch the traffic to `clarusway/clarusweb:2.0` image.
