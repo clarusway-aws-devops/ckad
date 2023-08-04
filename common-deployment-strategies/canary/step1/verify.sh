@@ -4,7 +4,7 @@ if [[ $(kubectl get deploy clarusweb-v2 -o jsonpath='{.spec.template.spec.contai
 && $(kubectl get deploy clarusweb-v2 -o jsonpath='{.spec.replicas}') -eq 2 \
 && $(kubectl get deploy clarusweb-v2 -o jsonpath='{.spec.template.metadata.labels.app}') = 'clarusweb' \
 && $(kubectl get deploy clarusweb-v2 -o jsonpath='{.spec.template.metadata.labels.version}') = 'v2' \
-&& $(kubectl get service clarusweb -o jsonpath='{.spec.selector}) = '{"app":"clarusweb"}' ]]
+&& $(kubectl get service clarusweb -o jsonpath='{.spec.selector}') = '{"app":"clarusweb"}' ]]
 then
   exit 0
 else
