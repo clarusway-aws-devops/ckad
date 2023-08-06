@@ -1,0 +1,1 @@
+- Disable `NamespaceLifecycle` admission control.

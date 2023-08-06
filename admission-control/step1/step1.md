@@ -1,0 +1,1 @@
+- Enable `NamespaceAutoProvision` admission control.
