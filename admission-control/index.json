@@ -12,7 +12,7 @@
         "verify": "step1/verify.sh"
       },
       {
-        "title": "rollback-deployment",
+        "title": "disable-admission-control",
         "text": "step2/step1.md",
         "verify": "step2/verify.sh"
       }
