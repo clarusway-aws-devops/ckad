@@ -1,0 +1,7 @@
+apiVersion: "clarusway.com/v1beta3"
+kind: BookSeller
+metadata:
+  name: mybook
+spec:
+  book: "Heidi"
+  count: 3

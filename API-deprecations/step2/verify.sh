@@ -1,6 +1,7 @@
 #!/bin/bash
 
-if [[ $(kubectl get deploy myapp -o jsonpath='{.spec.template.spec.containers[0].image}') = 'clarusway/clarusweb:1.0' ]]
+if [[ $(cat mybook.yaml | grep apiVersion | awk '{printf $2}') = 'clarusway.com/v1' \
+&& $(kubectl get bs mybook | grep 'mybook' | awk '{printf $1}') = 'mybook' ]]
 then
   exit 0
 else

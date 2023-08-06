@@ -7,16 +7,23 @@
     },
     "steps": [
       {
-        "title": "specify-group",
+        "title": "specify-api-group",
         "text": "step1/step1.md",
         "verify": "step1/verify.sh"
       },
       {
-        "title": "rollback-deployment",
+        "title": "update-api-group",
+        "foreground": "step2/foreground.sh",
+        "background": "step2/background.sh",
         "text": "step2/step1.md",
         "verify": "step2/verify.sh"
       }
     ],
+    "assets": {
+      "host01": [
+        {"file": "mybook.yaml", "target": "/root", "chmod": "+w"}
+      ]
+    },
     "finish": {
       "text": "finish.md"
     }
