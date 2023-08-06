@@ -1,0 +1,1 @@
+- Write the Api Group of `ingress` into `/root/api-group` file.
