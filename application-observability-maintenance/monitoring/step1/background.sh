@@ -27,7 +27,7 @@ spec:
   - name: memory-limit
     image: polinux/stress
     command: ["stress"]
-    args: ["--vm", "1", "--vm-bytes", "450M", "--vm-hang", "1"]
+    args: ["--vm", "1", "--vm-bytes", "350M", "--vm-hang", "1"]
 EOF
 
 kubectl apply -f -<<EOF
