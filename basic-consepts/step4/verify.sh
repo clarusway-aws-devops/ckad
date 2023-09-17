@@ -1,6 +1,6 @@
 #!/bin/bash
 
-number=$(kubectl get deploy nginx-deploy | tail -n 1 | awk '{print $4}')
+number=$(kubectl get deploy nginx-deploy -o jsonpath='{.spec.replicas}')
 
 if [[ $number -eq 3 ]]
 then
