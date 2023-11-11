@@ -7,7 +7,7 @@
     },
     "steps": [
       {
-        "title": "commands-arguments",
+        "title": "exposing-ports",
         "text": "step1/step1.md",
         "verify": "step1/verify.sh"
       }

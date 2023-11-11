@@ -1,13 +1,13 @@
 {
-  "title": "Exposing Ports",
-  "description": "Exposing Ports for PODS",
+  "title": "Arguments",
+  "description": "Arguments",
   "details": {
     "intro": {
       "text": "intro.md"
     },
     "steps": [
       {
-        "title": "commands-arguments",
+        "title": "Arguments",
         "text": "step1/step1.md",
         "verify": "step1/verify.sh"
       }
