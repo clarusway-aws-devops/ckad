@@ -1,0 +1,22 @@
+{
+  "title": "Labels and Selectors",
+  "description": "Labels and Selectors",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "labels-and-selectors",
+        "text": "step1/step1.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

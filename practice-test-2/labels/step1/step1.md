@@ -1,0 +1,6 @@
+- Create a pod named cw-label. 
+- The pod should be launched from nginx image. 
+- The name of container should be nginx-container. 
+- Attach following label to the pod.
+    - env=production
+    - app=webserver

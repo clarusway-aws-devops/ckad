@@ -1,0 +1,4 @@
+- Create a deployment named cw-deployment. 
+- The deployment should be launched from nginx image. 
+- The deployment should have three replicas. 
+- The selector should be based on the label of app=nginx
