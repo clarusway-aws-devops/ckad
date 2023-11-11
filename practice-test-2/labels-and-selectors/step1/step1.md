@@ -1,4 +1,5 @@
-- Create a pod with the name of cw-ports. 
-- The pod should be launched from an image of nginx.
-- The name of the container should be nginx. 
-- Expose Port 80 for the POD.
+- Create a deployment named cw-selector.
+- The pods should be launched from nginx image.
+- The pods should only be launched in a node which has a label of disk=ssd.
+- Observe the status of deployment.
+- Add the appropriate label to the worker node and then observe the status of the deployment.
