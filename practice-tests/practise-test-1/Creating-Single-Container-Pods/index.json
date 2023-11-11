@@ -1,6 +1,6 @@
 {
-  "title": "BASICS",
-  "description": "Basic-consepts",
+  "title": "Creating Single-Container Pods",
+  "description": "Creating Single-Container Pods",
   "details": {
     "intro": {
       "text": "intro.md"
