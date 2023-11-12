@@ -1,0 +1,5 @@
+- Create a deployment named cw-service. 
+- The deployment should have three replicas and the image should be based on nginx. 
+- Create a service based on NodePort. 
+- The service port should be 90. 
+- The website should be accessible from port 30001 from all hosts.

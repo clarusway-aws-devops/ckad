@@ -1,0 +1,5 @@
+- Create a new service account named clarus.
+- Create a deployment named deploy-clarus.
+- The deployment should have 3 replicas of nginx image. 
+- After the deployment has been created, check the service account associated with the pods. 
+- Modify the deployment so that all pods shall use the service account of clarus.

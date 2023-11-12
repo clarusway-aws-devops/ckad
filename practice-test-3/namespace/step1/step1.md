@@ -1,0 +1,4 @@
+- Create a pod named cw-namespace.
+- The pod should be part of the namespace clarusway.
+- The pod should make use of redis image.
+- Expose port 6379.
