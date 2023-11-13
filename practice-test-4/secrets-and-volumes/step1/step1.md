@@ -1,0 +1,5 @@
+- Create a secret name cw-creds that has the following data:
+    - cw-user: admin
+    - cw-password: P1213p
+- Create a pod named cw-pod with nginx image.
+- Mount the secret to the pod's /etc/secret path.
