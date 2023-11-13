@@ -1,0 +1,6 @@
+- Create a configmap named cw-config.
+- It contains following content.
+    - course: kubernetes
+    - lesson: configmap
+    - session: 3
+- Mount the configmap to a pod named cw-pod based on nginx image to /etc/config/cw.config
