@@ -1,0 +1,6 @@
+- create a secret and mount it as an environment variable to the application containers.
+- The name of secret is mysecret with following data:
+    - user: admin
+    - password: myPassword123
+- Create a pod named secret-pod from nginx image.
+- Mount the secret to the POD in such a way that the contents of the database user are available in the USER environment variable and database password is available in the DB_PASSWORD environment variable.
