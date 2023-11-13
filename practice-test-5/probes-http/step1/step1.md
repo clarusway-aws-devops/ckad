@@ -1,0 +1,3 @@
+- Create a POD from the nginx image.
+- Name it as cw-probe. 
+- It should be created in such a way that if the application inside is not responding to HTTP requests made on port 90, then Kubernetes should restart the POD.

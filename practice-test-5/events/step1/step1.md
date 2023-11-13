@@ -1,0 +1,2 @@
+- Store all the events associated with the pod liveness-http and store it to /tmp/log.txt.
+- Make sure to use the kubectl command and do not modify anything in the output.

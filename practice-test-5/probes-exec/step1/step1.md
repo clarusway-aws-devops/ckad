@@ -1,0 +1,6 @@
+- Create a POD named myprobe. 
+- It should run from nginx image.
+- Create a probe that checks if a file on that path /tmp/myfile exists. If it does not exist, the POD should be restarted.
+    - /bin/sh
+    - -c
+    - touch /tmp/myfile; 3600
