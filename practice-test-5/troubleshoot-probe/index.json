@@ -1,0 +1,24 @@
+{
+  "title": "Troubleshoot Probe",
+  "description": "Troubleshoot Probe",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "troubleshoot-probe",
+        "foreground": "step1/foreground.sh",
+        "background": "step1/background.sh",
+        "text": "step1/step1.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
