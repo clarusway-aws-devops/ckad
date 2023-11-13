@@ -1,0 +1,4 @@
+- Create a persistent volume with the name cw-pv. 
+- The size should be 3Gi, hostpath should be /tmp/mydata, and access mode should be ReadWriteOnce.
+- Create a persistent volume claim with the name cw-pvc that will make use of the cv-pv persistent volume.
+- Create a Pod named cw-pod. The POD should have the volume mounted at /myvolume directory.
