@@ -1,0 +1,5 @@
+- Create a pod named cw-quota.
+- The pod should run with nginx image.
+- It should use maximum of 512 MiB of memory.
+- It should use maximum of 2 core CPU.
+- The POD should require a minimum of 128 MiB of memory before it is scheduled
