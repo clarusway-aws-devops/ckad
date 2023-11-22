@@ -1,3 +1,0 @@
-- Create a pod with the name of cw-nginx.
-- The pod should be launched from an image of  nginx:latest
-- The name of the container should be mycontainer
