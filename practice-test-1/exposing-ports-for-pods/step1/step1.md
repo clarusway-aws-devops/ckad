@@ -1,4 +1,4 @@
 - Create a pod with the name of `cw-ports`. 
-- The pod should be launched from an image of `nginx`.
+- The pod should be launched from an image of `nginx:latest`.
 - The name of the container should be `nginx`. 
 - Expose `Port 80` for the POD.
