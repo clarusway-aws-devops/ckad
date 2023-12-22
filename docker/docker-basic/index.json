@@ -32,11 +32,6 @@
         "background": "step5/background.sh",  
         "text": "step5/step1.md",
         "verify": "step5/verify.sh"
-      },
-      {
-        "title": "list-containers",
-        "text": "step6/step1.md",
-        "verify": "step6verify.sh"
       }
     ],
     "finish": {
