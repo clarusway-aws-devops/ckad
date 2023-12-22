@@ -1,0 +1,1 @@
+Write the number of the running containers into the `/root/number.txt` file.
