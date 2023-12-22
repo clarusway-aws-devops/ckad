@@ -1,8 +1,7 @@
 #!/bin/bash
 
-docker container ls -af "name=secondcon"
-
-if [[ $? -eq 0 ]]
+if [[ $(docker container inspect firstcon -f {{.Name}}) = '/secondcon' \
+&& $(docker container inspect firstcon -f {{.Config.Image}}) = 'alpine' ]]
 then
   exit 0
 else
