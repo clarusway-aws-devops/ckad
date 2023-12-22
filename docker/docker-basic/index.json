@@ -22,9 +22,7 @@
         "verify": "step3/verify.sh"
       },
       {
-        "title": "list-containers",
-        "foreground": "step4/foreground.sh",
-        "background": "step4/background.sh",  
+        "title": "remove-containers",
         "text": "step4/step1.md",
         "verify": "step4/verify.sh"
       },
