@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ $(kubectl get deploy clarusweb -o jsonpath='{.spec.template.spec.containers[0].image}') = 'clarusway/clarusweb:2.0' ]]
+if [[ $(docker container inspect redcon -f {{.Config.Image}}) = 'alpine' ]]
 then
   exit 0
 else
