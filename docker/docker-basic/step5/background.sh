@@ -3,7 +3,7 @@
 
 echo starting... # to test stdout output in /var/log/killercoda
 
-docker container rm -f $(docker ps -aq)
+docker container rm -f $(docker ps -aq) || true
 docker run -d ubuntu sleep 3600
 docker run -d alpine sleep 3600
 docker run --name redcon -d alpine sleep 3600
