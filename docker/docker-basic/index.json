@@ -1,35 +1,35 @@
 {
   "title": "BASICS",
-  "description": "Basic-consepts",
+  "description": "Docker-basics",
   "details": {
     "intro": {
       "text": "intro.md"
     },
     "steps": [
       {
-        "title": "create-pod",
+        "title": "create-container",
         "text": "step1/step1.md",
         "verify": "step1/verify.sh"
       },
       {
-        "title": "create-namespace",
+        "title": "create-container",
         "text": "step2/step1.md",
         "verify": "step2/verify.sh"
       },
       {
-        "title": "create-deploy",
+        "title": "inspect-container",
         "text": "step3/step1.md",
         "verify": "step3/verify.sh"
       },
       {
-        "title": "scale-deploy",
+        "title": "list-containers",
         "foreground": "step4/foreground.sh",
         "background": "step4/background.sh",  
         "text": "step4/step1.md",
         "verify": "step4/verify.sh"
       },
       {
-        "title": "update-deployment",
+        "title": "list-containers",
         "foreground": "step5/foreground.sh",
         "background": "step5/background.sh",  
         "text": "step5/step1.md",
