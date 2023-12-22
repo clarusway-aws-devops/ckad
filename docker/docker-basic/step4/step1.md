@@ -1,0 +1,1 @@
+Write the all running container names to `/root/running.txt` file.

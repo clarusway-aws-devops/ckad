@@ -1,0 +1,1 @@
+Write the `image` of `redcon` container to the `/root/redcon-image.txt` file. 
