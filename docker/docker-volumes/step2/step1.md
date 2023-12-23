@@ -1,0 +1,3 @@
+- Create a container named `alpha-con` with `alpine` image.
+- Bound `myvolume` volume to `/alpha` directory inside the `alpha-con` container.
+- Create a file named `myapp` with the content `hello world` under the `/alpha` directory in the `alpha-con` container.

@@ -1,0 +1,32 @@
+{
+  "title": "docker-volumes",
+  "description": "Docker Volumes",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "create-volume",
+        "text": "step1/step1.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "bound-volume",
+        "text": "step2/step1.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "bound-volume",
+        "text": "step3/step1.md",
+        "verify": "step3/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
