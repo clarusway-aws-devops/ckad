@@ -1,0 +1,1 @@
+- Create a container named `mars` with `nginx` image and publish `9090` host port.
