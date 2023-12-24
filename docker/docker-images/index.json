@@ -1,0 +1,43 @@
+{
+  "title": "docker-images",
+  "description": "Docker Images",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "create-image",
+        "text": "step1/step1.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "create-network",
+        "text": "step2/step1.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "attach-network",
+        "text": "step3/step1.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "publish-containers",
+        "text": "step4/step1.md",
+        "verify": "step4/verify.sh"
+      }
+    ],
+    "assets": {
+      "host01": [
+        {"file": "Dockerfile", "target": "/root/myapp", "chmod": "+w"},
+        {"file": "app.py", "target": "/root/myapp", "chmod": "+w"}
+      ]
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}

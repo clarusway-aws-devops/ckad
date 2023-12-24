@@ -1,0 +1,1 @@
+- Create a container named `moon` with `httpd` image and connect `mynet` volume.
