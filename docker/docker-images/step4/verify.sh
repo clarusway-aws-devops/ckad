@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ $(docker logs mynewapp) = $(cat /root/myapp/logs) ]]
+if [[ $(docker logs mycontainer) = $(cat /root/myapp/logs) ]]
 then
   exit 0
 else
