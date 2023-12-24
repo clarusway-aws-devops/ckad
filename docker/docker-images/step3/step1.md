@@ -1,1 +1,1 @@
-- Create a container named `moon` with `httpd` image and connect `mynet` volume.
+- Run a container, which keeps running in the background, named `mynewapp` using image `localhost:5000/myapp:v1`.

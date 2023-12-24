@@ -1,1 +1,1 @@
-- Create a container named `mars` with `nginx` image and publish `9090` host port.
+- Write the logs your container mynewapp into `/root/myapp/logs` file.

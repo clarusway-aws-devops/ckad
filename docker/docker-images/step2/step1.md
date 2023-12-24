@@ -1,1 +1,1 @@
-Create a network named `mynet`.
+- Tag the `myapp:v1` image as `localhost:5000/myapp:latest` and `localhost:5000/myapp:v1` push these to the registry.
