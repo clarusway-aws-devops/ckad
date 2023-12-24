@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ $(docker container inspect mynewapp -f {{.Name}}) = '/mynewapp' ]]
+if [[ $(docker logs mynewapp) = $(cat /root/myapp/logs) ]]
 then
   exit 0
 else
