@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [[ $(docker container inspect sun -f {{.Name}}) = '/sun' \
+if [[ $(docker image inspect myapp:latest -f {{.RepoTags}}) = '[myapp:latest myapp:v1]' \
 && $(docker container inspect sun -f {{.Config.Image}}) = 'nginx' \
-&& $(docker container inspect sun -f='{{json .NetworkSettings}}' | jq -r .Networks.bridge.IPAddress) = $(cat /root/sun.txt) ]]
+&& $(docker image inspect myapp:latest -f '{{json .Config}}' | jq -r '.Env[]' | grep '^APP_NAME=' | cut -d '=' -f 2) = 'mynewapp' ]]
 then
   exit 0
 else

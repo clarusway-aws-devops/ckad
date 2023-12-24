@@ -2,4 +2,4 @@
 
 - Change the value of the environment variable `APP_NAME` to `mynewapp`.
 
-- Build the image using Docker, named myapp, tagged as `latest` and `v1`.
+- Build the image using Docker, named `myapp`, tagged as `latest` and `v1`.
