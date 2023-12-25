@@ -14,17 +14,17 @@
         "verify": "step1/verify.sh"
       },
       {
-        "title": "create-network",
+        "title": "tag-image",
         "text": "step2/step1.md",
         "verify": "step2/verify.sh"
       },
       {
-        "title": "attach-network",
+        "title": "create-container",
         "text": "step3/step1.md",
         "verify": "step3/verify.sh"
       },
       {
-        "title": "publish-containers",
+        "title": "logs",
         "text": "step4/step1.md",
         "verify": "step4/verify.sh"
       }
@@ -33,7 +33,7 @@
       "host01": [
         {"file": "Dockerfile", "target": "/root/myapp", "chmod": "+w"},
         {"file": "app.py", "target": "/root/myapp", "chmod": "+w"},
-        {"file": "docker-compose.yaml", "target": "/docker-hub/", "chmod": "+w"}
+        {"file": "docker-compose.yaml", "target": "/root/docker-hub/", "chmod": "+w"}
       ]
     },
     "finish": {
