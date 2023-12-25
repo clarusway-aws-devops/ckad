@@ -1,1 +1,1 @@
-- Run a container, which keeps running in the background, named `mycontainer` using image `localhost:5000/myapp:v1` and set `APP_NAME` environment variable as `myperfectapp`.
+- Run a container, which keeps running in the background, named `mycontainer` using image `localhost/myapp:v1` and set `APP_NAME` environment variable as `myperfectapp`.
