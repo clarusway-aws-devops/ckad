@@ -32,7 +32,8 @@
     "assets": {
       "host01": [
         {"file": "Dockerfile", "target": "/root/myapp", "chmod": "+w"},
-        {"file": "app.py", "target": "/root/myapp", "chmod": "+w"}
+        {"file": "app.py", "target": "/root/myapp", "chmod": "+w"},
+        {"file": "docker-compose.yaml", "target": "/docker-hub/", "chmod": "+w"}
       ]
     },
     "finish": {
