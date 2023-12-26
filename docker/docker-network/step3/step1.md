@@ -1,1 +1,1 @@
-- Create a container named `moon` with `httpd` image and connect `mynet` volume.
+- Create a container named `moon` with `httpd` image and connect `mynet` network.
