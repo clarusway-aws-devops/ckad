@@ -20,6 +20,11 @@
         "title": "create-cronjob", 
         "text": "step3/step1.md",
         "verify": "step3/verify.sh"
+      },
+      {
+        "title": "create-job-from-cronjob", 
+        "text": "step4/step1.md",
+        "verify": "step4/verify.sh"
       }
     ],
     "finish": {
