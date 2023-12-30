@@ -2,7 +2,7 @@
 
 if [[ $( kubectl get job pi -o jsonpath='{.spec.template.spec.containers[0].command}') = '["perl","-Mbignum=bpi","-wle","print bpi(2000)"]' \
 && $(kubectl get job pi -o jsonpath='{.spec.template.spec.containers[0].image}') = 'perl:5.34' \
-&& $(kubectl get job pi -o jsonpath='{.spec.activeDeadlineSeconds}' = '60' ]]
+&& $(kubectl get job pi -o jsonpath='{.spec.activeDeadlineSeconds}') = '60' ]]
 then
   exit 0
 else
