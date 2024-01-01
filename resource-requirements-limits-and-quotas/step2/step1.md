@@ -1,2 +1,2 @@
-- There is a pod named stress-pod. Because of memory limit, it isn't running. Increse the limit of the memory limit of 'stress-pod' to '70Mi'.
+- There is a pod named `stress-pod`. Because of memory limit, it isn't running. Increse the limit of the memory limit of `stress-pod` to `70Mi`.
 - If it is requiered, create the pod again.
