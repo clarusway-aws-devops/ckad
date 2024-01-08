@@ -15,7 +15,7 @@ spec:
   ports:
   - port: 80
     protocol: TCP
-    targetPort: 80
+    targetPort: 90
   selector:
     app: clarus-svc
   type: NodePort
