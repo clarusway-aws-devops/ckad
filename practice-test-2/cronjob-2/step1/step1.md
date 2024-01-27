@@ -1,0 +1,3 @@
+- Create a cronjob named `cw-cron`.
+- The job should run every minute and should run following command `ls test`.
+- Terminate the container within 10 seconds if it does not run.

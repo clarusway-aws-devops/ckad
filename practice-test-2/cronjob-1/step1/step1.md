@@ -1,2 +1,2 @@
-- Create a job named cw-job.
+- Create a cronjob named `cw-job` with the `busybox:1.28` image.
 - The job should run every minute and should print out the current date.
