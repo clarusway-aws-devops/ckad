@@ -1,6 +1,3 @@
-- Create a deployment named cw-configuration.
-- The deployment should have 3 replicas of nginx image.
-- Once the deployment is created, verify the maxSurge and maxUnavailable parameters.
-- Edit the the maxUnavailable to 0 and maxSurge to 30% on the live deployment object.
-- Once those two parameters are modified, change the image of the deployment to nginx:alpine.
-- Make sure to use the record instruction on rolling updates.
+- Create a deployment named `cw-configuration`.
+- The deployment should have 3 replicas of `nginx` image.
+- Define the the maxUnavailable to 0 and maxSurge to 30% on the `cw-configuration` deployment object.

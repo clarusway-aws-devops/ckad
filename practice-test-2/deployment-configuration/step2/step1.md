@@ -1,0 +1,1 @@
+- Change the image of the `cw-configuration` deployment object to `nginx:alpine`.
