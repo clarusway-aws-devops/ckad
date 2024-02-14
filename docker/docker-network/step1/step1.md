@@ -1,2 +1,2 @@
 - Create a container named `sun` with the `nginx` image.
-- Write the `IPAddress` at the `bridge Network` of the `sun` container to the `/root/sun.txt` file.
+- Write the `IPAddress` of the `sun` container to the `/root/sun.txt` file.
