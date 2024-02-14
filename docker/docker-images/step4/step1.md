@@ -1,1 +1,1 @@
-- Write the logs your container mynewapp into `/root/myapp/logs` file.
+- Write the logs of `mycontainer` container into the `/root/myapp/logs` file.

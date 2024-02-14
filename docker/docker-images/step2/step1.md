@@ -1,1 +1,2 @@
-- Tag the `myapp:v1` image as `localhost/myapp:latest` and `localhost/myapp:v1` push these to the registry.
+- Tag the `myapp:v1` image as `localhost/myapp:latest` and `localhost/myapp:v1`.
+- Push these images to the registry.
