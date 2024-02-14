@@ -33,4 +33,5 @@ spec:
     nodePort: 30001
   selector:
     app: clarusweb
+    version: v1
   type: NodePort
