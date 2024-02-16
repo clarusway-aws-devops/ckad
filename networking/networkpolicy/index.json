@@ -8,6 +8,8 @@
     "steps": [
       {
         "title": "network-policy",
+        "foreground": "step1/foreground.sh",
+        "background": "step1/background.sh",
         "text": "step1/step1.md",
         "verify": "step1/verify.sh"
       }
