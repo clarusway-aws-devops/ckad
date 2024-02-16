@@ -24,6 +24,6 @@ spec:
         - containerPort: 80
 EOF
 
-kubectl expode deploy nginx-deploy --port=80
+kubectl expose deploy nginx-deploy --port=80
 
 touch /tmp/finished
