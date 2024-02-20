@@ -1,0 +1,3 @@
+- Create a storageclass `moon-sc` with the provisioner set to `rancher.io/local-path`, the reclaimPolicy set to `Delete` and volumeBindingMode set to `WaitForFirstConsumer`.
+- Create a new PersistentVolumeClaim named `moon-pvc`.  This claim should request storage of `3Gi`, an accessMode of `ReadWriteOnce` and should use the  `moon-sc` StorageClass.
+- Finally create a Deployment `project-moon` which mounts `moon-pvc` volume at `/tmp/data`. The Pods of that Deployment should be of image `httpd:alpine`.
