@@ -1,4 +1,4 @@
-- Create a Pod named 'init-pod' with 'nginx:latest' image exposed on port 80.
-- Add an init container with 'busybox:1.28' image which downloads a page using "wget -o /data/index.html http://info.cern.ch".
+- Create a Pod named `init-pod` with `nginx:latest` image exposed on port 80.
+- Add an init container with `busybox:1.28` image which downloads a page using "wget -o /data/index.html http://info.cern.ch".
 - Make a volume of type emptyDir and mount it in both containers.
-- For the nginx container, mount it on "/usr/share/nginx/html" and for the busybox container, mount it on "/data".
+- For the nginx container, mount it on `/usr/share/nginx/html` and for the busybox container, mount it on `/data`.
