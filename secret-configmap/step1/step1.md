@@ -1,1 +1,1 @@
-- Create a configmap named 'myconfig' with values mycolor=blue
+- Create a configmap named `myconfig` with values `mycolor=blue`.
