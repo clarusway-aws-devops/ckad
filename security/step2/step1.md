@@ -1,1 +1,1 @@
-- Update the 'web' deployment in the 'prod' namespace to run as the 'app-sa' service account.
+- Update the `web` deployment in the `prod` namespace to run as the `app-sa` service account.

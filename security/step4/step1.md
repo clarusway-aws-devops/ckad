@@ -1,1 +1,1 @@
-- Add the SYS_TIME capability to the pod 'demo-context'.
+- Add the SYS_TIME capability to the pod `demo-context`.
