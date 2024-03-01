@@ -1,6 +1,6 @@
 {
-  "title": "Observability",
-  "description": "Kubernetes Probes",
+  "title": "Probes",
+  "description": "Application Observability",
   "details": {
     "intro": {
       "text": "intro.md"
