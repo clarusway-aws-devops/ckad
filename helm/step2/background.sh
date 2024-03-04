@@ -2,6 +2,7 @@
 
 echo starting... # to test stdout output in /var/log/killercoda
 
+helm uninstall mysql-release
 kubectl create ns beta
 helm repo add bitnami https://charts.bitnami.com/bitnami
 helm install beta-redis bitnami/redis -n beta
