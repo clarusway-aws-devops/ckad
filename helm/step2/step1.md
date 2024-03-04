@@ -1,0 +1,1 @@
+- Team Sun has its own ServiceAccount named `sun-sa` in Namespace `sun`. A developer requires the token from the Secret that belongs to that ServiceAccount. Write the base64 decoded token to file `/opt/sun/token`.
