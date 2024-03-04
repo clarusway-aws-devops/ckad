@@ -13,10 +13,10 @@
       },
       {
         "title": "helm-commands",
-        "foreground": "step1/foreground.sh",
-        "background": "step1/background.sh",
-        "text": "step1/step1.md",
-        "verify": "step1/verify.sh"
+        "foreground": "step2/foreground.sh",
+        "background": "step2/background.sh",
+        "text": "step2/step1.md",
+        "verify": "step2/verify.sh"
       }
     ],
     "finish": {

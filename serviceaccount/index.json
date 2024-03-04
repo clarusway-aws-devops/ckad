@@ -7,14 +7,14 @@
     },
     "steps": [
       {
-        "title": "create-ServiceAccount-secret",
-        "foreground": "step1/foreground.sh",
-        "background": "step1/background.sh",  
+        "title": "create-ServiceAccount-secret", 
         "text": "step1/step1.md",
         "verify": "step1/verify.sh"
       },
       {
         "title": "find-ServiceAccount-token",
+        "foreground": "step1/foreground.sh",
+        "background": "step1/background.sh", 
         "text": "step2/step1.md",
         "verify": "step2/verify.sh"
       }
