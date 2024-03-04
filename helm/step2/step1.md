@@ -1,1 +1,7 @@
-- Team Sun has its own ServiceAccount named `sun-sa` in Namespace `sun`. A developer requires the token from the Secret that belongs to that ServiceAccount. Write the base64 decoded token to file `/opt/sun/token`.
+- Team beta asked you to perform some operations using Helm, all in Namespace `beta`:
+
+- Delete release beta-redis.
+
+- Upgrade release beta-nginx to `15.12.2`  version of chart bitnami/nginx available.
+
+- Install a new release `beta-apache` of chart `bitnami/apache`. The Deployment should have `three replicas` and `image.pullPolicy Always`, set these via Helm-values during install.

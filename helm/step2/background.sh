@@ -2,18 +2,9 @@
 
 echo starting... # to test stdout output in /var/log/killercoda
 
-kubectl create ns sun
-mkdir /opt/sun
-k -n sun create serviceaccount sun-sa
-kubectl apply -f - <<EOF
-apiVersion: v1
-kind: Secret
-metadata:
-  name: sun-sa-secret
-  namespace: sun
-  annotations:
-    kubernetes.io/service-account.name: sun-sa
-type: kubernetes.io/service-account-token
-EOF
+kubectl create ns beta
+helm repo add bitnami https://charts.bitnami.com/bitnami
+helm install beta-redis bitnami/redis -n beta
+helm -n beta install beta-nginx bitnami/nginx --version 15.11.0
 
 touch /tmp/finished
