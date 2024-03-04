@@ -1,6 +1,6 @@
 - Team beta asked you to perform some operations using Helm, all in Namespace `beta`:
 
-- Delete release beta-redis.
+- Delete release `beta-redis`.
 
 - Upgrade release beta-nginx to `15.12.2`  version of chart bitnami/nginx available.
 
