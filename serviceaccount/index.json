@@ -17,11 +17,6 @@
         "title": "find-ServiceAccount-token",
         "text": "step2/step1.md",
         "verify": "step2/verify.sh"
-      },
-      {
-        "title": "add-securitycontext",
-        "text": "step3/step1.md",
-        "verify": "step3/verify.sh"
       }
     ],
     "finish": {
