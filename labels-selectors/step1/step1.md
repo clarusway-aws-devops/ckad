@@ -1,0 +1,2 @@
+- It is required to identify some of Pods in default namespace.
+- The company ask you to add a new label `protected: true` to all Pods with an existing label `env: prod` and `tier=backend`.

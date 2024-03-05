@@ -1,0 +1,1 @@
+- Add an annotation `warning: do not delete this pod` to all Pods having the label `env: qa` or `env: prod`.
