@@ -1,6 +1,6 @@
 - Your company have an application to sell book that will be used with the kubernetes cluster. 
 
-- Create a new `CustomResourceDefinition(CRD)` named `booksellers.clarusway.com` which has attributes as below.
+- Create a new `CustomResourceDefinition(CRD)` named booksellers.clarusway.com which has attributes as below.
 
 ```
 group: xxxxxxx
