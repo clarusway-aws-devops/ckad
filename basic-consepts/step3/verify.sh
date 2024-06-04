@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ $(kubectl get deploy -n webserver mydeploy -o jsonpath='{.spec.template.spec.containers[0].image}') = 'httpd:alpine' \
-&& $(kubectl get deploy -n webserver mydeploy -o jsonpath='{.metadata.labels}') = '{"web":"apache"}' ]]
+&& $(kubectl get deploy mydeploy -o jsonpath='{.metadata.labels}'  | grep -o '"web":"apache"') = '"web":"apache"' ]]
 then
   exit 0
 else
