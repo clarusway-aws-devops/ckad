@@ -1,6 +1,6 @@
 {
   "title": "Security",
-  "description": "RBAC, ServiceAccounts and SecurityContexts",
+  "description": "RBAC and ServiceAccounts",
   "details": {
     "intro": {
       "text": "intro.md"
