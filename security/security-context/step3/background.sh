@@ -4,7 +4,7 @@ echo starting... # to test stdout output in /var/log/killercoda
 
 kubectl create ns prod
 
-kubectl apply -f <<EOF
+kubectl apply -f - <<EOF
 apiVersion: v1
 kind: Pod
 metadata:
