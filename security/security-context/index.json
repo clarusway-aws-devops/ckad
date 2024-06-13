@@ -19,6 +19,13 @@
         "background": "step2/background.sh", 
         "text": "step2/step1.md",
         "verify": "step2/verify.sh"
+      },
+      {
+        "title": "allowPrivilegeEscalation",
+        "foreground": "step3/foreground.sh",
+        "background": "step3/background.sh", 
+        "text": "step3/step1.md",
+        "verify": "step3/verify.sh"
       }
     ],
     "finish": {
