@@ -1,0 +1,2 @@
+- Add securitycontext to `myalpine` pod.
+- Define user as `1010` and group as `2000`.
